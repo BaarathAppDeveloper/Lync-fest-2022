@@ -340,14 +340,12 @@ hr{
 }
 
 #particles-js{
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     z-index: -99999;
-    top: 0;
-    bottom: 0;
 }
 
 .event-card-img{
@@ -485,8 +483,12 @@ hr{
     width: 100%;
 }
 
+.company-btn:nth-child(5){
+    padding: 5.05% 1%;
+}
+
 .company-btn:last-of-type{
-    padding: 1.8% 0%;
+    padding: 1.6% 0%;
 }
 
 .company-btn:last-of-type img{
