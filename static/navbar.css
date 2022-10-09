@@ -230,8 +230,14 @@
     .company-btn{
         width: 60%;
     }
-
     .company-btn:nth-child(5){
+        padding: 10% 0.5%;
+    }
+    
+    .company-btn:nth-child(5) img{
+        width: 80%;
+    }
+    .company-btn:nth-child(6){
         padding: 20% 2%;
     }
 
