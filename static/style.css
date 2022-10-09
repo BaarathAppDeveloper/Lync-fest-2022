@@ -484,11 +484,18 @@ hr{
 }
 
 .company-btn:nth-child(5){
-    padding: 5.05% 1%;
+    padding: 1.5% 0.5%;
+}
+
+.company-btn:nth-child(5) img{
+    width: 85%;
+}
+.company-btn:nth-child(6){
+    padding: 4.1% 0.5%;
 }
 
 .company-btn:last-of-type{
-    padding: 1.6% 0%;
+    padding: 1.2% 0%;
 }
 
 .company-btn:last-of-type img{
