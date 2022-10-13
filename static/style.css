@@ -448,65 +448,36 @@ hr{
     width: 1%;
     transform: scale(0);
 }
-
 .sponsors{
+    width:99vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
-    /* outline: 1px solid red; */
-    padding: 7% 10%;
-    flex-direction: column;
+    flex-wrap:wrap;
+    gap:0 5%;
 }
-
-.company-btns{
+.sponsor-card{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 30px;
-}
-
-.company-btn{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    background: rgb(29, 29, 29);
-    width: 25%;
-    border-radius: 10px;
+    height:200px;
+    width:200px;
+    border-radius:10px;
+    margin-bottom:6%;
     outline: 1px solid white;
     box-shadow: 0 0 10px #0288d1;
-    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: rgb(29,29,29,0.5);
 }
-
-.company-btn img{
-    width: 100%;
+.sponsor-card a{
+    display: flex;
+    justify-content: center;
 }
-
-.company-btn:nth-child(5){
-    padding: 1.5% 0.5%;
-}
-
-.company-btn:nth-child(5) img{
-    width: 85%;
-}
-.company-btn:nth-child(6){
-    padding: 4.1% 0.5%;
-}
-
-.company-btn:last-of-type{
-    padding: 1.2% 0%;
-}
-
-.company-btn:last-of-type img{
-    width: 80%;
-}
-
-.company-btn:hover{
-    /* transform: scale(1.02); */
+.sponsor-card:hover{
     box-shadow: 0 0 30px #0288d1;
+    transform: scale(1.2);
 }
-
+.s-logo{
+    width:80%;
+}
 footer{
     display: flex;
     justify-content: center;
